@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-public class ObjektCat {
+public class CatTest {
     @Test
     public void workingWithCat(){
        Cat firstCat = new Cat();

@@ -1,4 +1,4 @@
-public class Mikrowave {
+public class Mikrowelle {
     private double power;
     private String firma;
     private int width;

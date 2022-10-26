@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.Test;
 
-public class ObjektBook {
+public class BookTest {
     @Test
-    public void workingwithbook(){
+    public void workingwithBook(){
     Book firstbook = new Book();
 
     firstbook.setName("Alhimik");

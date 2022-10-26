@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-public class ObjektRadio {
+public class RadioTest {
     @Test
     public void workingwithRadio(){
     Radio firstRadio = new Radio();

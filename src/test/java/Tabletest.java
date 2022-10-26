@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.Test;
 
-public class ObjektTable {
+public class Tabletest {
     @Test
-    public void workingwithtable(){
+    public void workingwithTable(){
      Table  firstTable = new Table();
 
      firstTable.setColor("black");

@@ -1,8 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import java.util.Queue;
-
-public class ObjektTelephone {
+public class TelephoneTest {
     @Test
     public void workingWithTelephone() {
         Telephone firstTelephone = new Telephone();

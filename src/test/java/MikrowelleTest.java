@@ -1,9 +1,9 @@
 import org.junit.jupiter.api.Test;
 
-public class ObjektMikrowave {
+public class MikrowelleTest {
     @Test
-    public void workingwithmirrowave(){
-     Mikrowave  firstmikrowave = new Mikrowave();
+    public void workingwithMikrowelle(){
+     Mikrowelle firstmikrowave = new Mikrowelle();
 
      firstmikrowave.setPower(800);
      firstmikrowave.setWidth(27);

@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-public class ObjektCar {
+public class CarTest {
     @Test
     public void workingWithCar(){
       Car firstCar = new Car();

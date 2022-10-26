@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.Test;
 
-public class ObjektWashingmachine {
+public class WashingmachineTest {
     @Test
-    public void workingWithWashingmachine(){
+    public void WorkingWithWashingmachine(){
       WashingMachine firstWashingMachine =  new WashingMachine();
 
       firstWashingMachine.setTimeWash(3.43);
