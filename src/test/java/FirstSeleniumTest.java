@@ -9,18 +9,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class FirstSeleniumTest {
-    private final By ACCEPT_COOKIES_BTN = By.id("id=onetrust-accept-btn-handler");
+    private final By ACCEPT_COOKIES_BTN = By.id("onetrust-accept-btn-handler");
     @Test
     public void  openHomePageCheck() {
         System.setProperty("webdriver.chrome.driver","C://chromedriver.exe");
-        WebDriver brawser = new ChromeDriver();
-        brawser.manage().window().maximize();
-        brawser.get("http://www.discovercars.com/");
+        WebDriver browser = new ChromeDriver();
+        browser.manage().window().maximize();
+        browser.get("http://www.discovercars.com/");
 
-        WebDriverWait wait = new WebDriverWait(brawser, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(browser, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.elementToBeClickable(ACCEPT_COOKIES_BTN));
 
-        brawser.findElement(ACCEPT_COOKIES_BTN).click();
+        browser.findElement(ACCEPT_COOKIES_BTN).click();
 
     }
 }
