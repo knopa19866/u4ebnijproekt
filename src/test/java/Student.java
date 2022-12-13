@@ -1,10 +1,12 @@
 public class Student {
+    //-------------------------ATRIBUTES--------------------//
     private String firstName;
     private String lastName;
     private String email;
     private String phone;
+    //----------------------------CONSTRUCTORS----------------------//
 
-    public Student () {
+    public Student(){
 
     }
 
@@ -14,7 +16,7 @@ public class Student {
         this.email = email;
         this.phone = phone;
     }
-
+ //--------------------------------GETTERS/SETTERS------------------------//
     public String getFirstName() {
         return firstName;
     }
